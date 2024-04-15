@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Vegetable Oil Spray",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables"]
+  },
+  {
+    "name": "Soap Spray",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Neem Oil Spray",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Herbs"]
+  },
+  {
+    "name": "Diatomaceous Earth",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables", "Fruits", "Herbs"]
+  },
+  {
+    "name": "Garlic Spray",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables", "Herbs"]
+  },
+  {
+    "name": "Chile Pepper Spray",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "All-in-One Homemade Spray",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables", "Fruits", "Herbs"]
+  },
+  {
+    "name": "Tomato Leaf Spray",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Jeevamrutham",
+    "organicStatus": true,
+    "usedForCrops": ["Trees", "Vegetables","Fruits"]
+  },
+  {
+    "name": "Beejamrutha",
+    "organicStatus": true,
+    "usedForCrops": ["Trees", "Vegetables","Fruits"]
+  },
+  {
+    "name": "Ghana Jeevamrutham",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Bacillus thuringiensis",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Copper Fungicide",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Pyrethrum",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables", "Fruits", "Herbs"]
+  },
+  {
+    "name": "Mineral Oil",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Spinosad",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Boron",
+    "organicStatus": false,
+    "usedForCrops": ["Herbs"]
+  },
+  {
+    "name": "Malathion",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Permethrin",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Fruits", "Herbs"]
+  },
+  {
+    "name": "Rotenone",
+    "organicStatus": true,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Carbaryl",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Glyphosate",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Herbs"]
+  },
+  {
+    "name": "Copper Hydroxide",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Herbs"]
+  },
+  {
+    "name": "Captan",
+    "organicStatus": false,
+    "usedForCrops": ["Fruits"]
+  },
+  {
+    "name": "Bifenthrin",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Thiram",
+    "organicStatus": false,
+    "usedForCrops": ["Herbs"]
+  },
+  {
+    "name": "Acephate",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Fruits"]
+  },
+  {
+    "name": "Atrazine",
+    "organicStatus": false,
+    "usedForCrops": ["Herbs", "Fruits"]
+  },
+  {
+    "name": "Metaldehyde",
+    "organicStatus": false,
+    "usedForCrops": ["Fruits"]
+  },
+  {
+    "name": "Imidacloprid",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Fruits", "Herbs"]
+  },
+  {
+    "name": "Dicamba",
+    "organicStatus": false,
+    "usedForCrops": ["Vegetables", "Herbs"]
+  }
+]

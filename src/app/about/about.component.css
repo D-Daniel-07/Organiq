@@ -1,0 +1,20 @@
+/* Example about.component.css */
+div {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+
+  .title{
+    text-align: center;
+  }
+  

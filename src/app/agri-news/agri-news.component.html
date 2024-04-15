@@ -1,0 +1,16 @@
+<app-header></app-header>
+
+<div class="news-container">
+  <h2 class="title">Health Facts</h2>
+
+  <div class="news-wrapper">
+    <button class="navigation-button left" (click)="previousNews()"><</button>
+    <div class="news-item" *ngIf="newsList.length > 0">
+      <h3>{{ newsList[currentIndex]?.title }}</h3>
+      <img *ngIf="newsList[currentIndex]?.urlToImage" [src]="newsList[currentIndex]?.urlToImage" alt="News Image" class="news-image">
+      <p>{{ newsList[currentIndex]?.description }}</p>
+      <a [href]="newsList[currentIndex]?.url" target="_blank">Read more</a>
+    </div>
+    <button class="navigation-button right" (click)="nextNews()">></button>
+  </div>
+</div>

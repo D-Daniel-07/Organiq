@@ -1,0 +1,24 @@
+<app-header></app-header>
+<div class="container">
+  <h1 class="heading">Welcome to our Organiq!</h1>
+  
+  <div class="search-container">
+    <p>Enter the inorganic pesticide to replace with organic pesticide</p>
+    <input type="text" class="input-field" [(ngModel)]="inorganicPesticide" />
+    <button class="search-button" (click)="searchOrganicReplacements()">Search</button>
+  </div>
+  
+  <div *ngIf="organicReplacements.length > 0" class="results-container">
+    <p class="results-heading">Organic replacements for {{ toBeReplaced }}:</p>
+    <ul class="results-list">
+      <li *ngFor="let replacement of organicReplacements" class="replacement-item">{{ replacement }}</li>
+    </ul>
+  </div>
+
+  <div *ngIf="isNoResultFound" class="results-container">
+    <p class="results-heading">No results found for {{ toBeReplaced }}.</p>
+  </div>
+  <div *ngIf="organicReplacements.length === 0 && isBtnClicked && !isNoResultFound" class="results-container">
+    <p class="results-heading"> {{ toBeReplaced }} is a organic pesticide</p>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+<!-- src/app/signup/signup.component.html -->
+
+<div class="container">
+    <div class="signup-form">
+      <h2>Sign Up</h2>
+      <form (ngSubmit)="signup()">
+        <div>
+          <label for="userId">User ID</label>
+          <input type="text" id="userId" name="userId" [(ngModel)]="newUser.userId" required>
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" [(ngModel)]="newUser.password" required>
+        </div>
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+  
