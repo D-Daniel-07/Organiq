@@ -2,6 +2,9 @@ import requests
 import json
 
 # Set up the API endpoint and your API key
+api_endpoint = "https://api.anthropic.com/v1/complete"
+api_key = "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"  # Replace with your actual API key
+
 initial_prompt = "Hello! I'm an agriculture chatbot. How can I assist you today?"
 
 # Function to send a message to the Claude AI API and get the response
